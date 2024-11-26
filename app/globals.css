@@ -25,3 +25,75 @@ body {
     text-wrap: balance;
   }
 }
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.messagee-box-bg {
+  background-color: #4b699d;
+}
+
+.attachment-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attachment-modal-content {
+  background: #6c6e72;
+  padding: 0.5rem;
+  border-radius: 8px;
+  max-width: 95vw; /* increase max width to 95% of the viewport width */
+  max-height: 90vh; /* increase max height to 90% of the viewport height */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.loading-div {
+  position: absolute;
+  z-index: 1000;
+  /* left: 50%; */
+  /* top: 50%; */
+  background-color: #a3a3a340;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+.download-btn {
+  align-self: flex-end;
+  color: transparent;
+  background-color: #d8d9e1;
+  border-radius: 35%;
+  margin-top: 10px;
+  cursor: pointer;
+}
